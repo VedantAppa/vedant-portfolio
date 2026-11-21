@@ -30,7 +30,7 @@ export const personalInfo: PersonalInfo = {
   github: "https://github.com/VedantAppa",
   resumeFileName: "Vedant_Ghodeswar_Resume.pdf",
   availableForWork: true,
-  avatar: "/vedant.jpg"
+  avatar: "./vedant.jpg"
 };
 
 export const introduction = {
@@ -237,8 +237,8 @@ export const projects: ProjectItem[] = [
     role: "Core Team Developer & Presentation Lead",
     status: "Ongoing",
     githubUrl: "https://github.com/VedantAppa",
-    liveDemoUrl: "/certificates/SIH_Power_Rangers.pdf",
-    pdfUrl: "/certificates/SIH_Power_Rangers.pdf",
+    liveDemoUrl: "./certificates/SIH_Power_Rangers.pdf",
+    pdfUrl: "./certificates/SIH_Power_Rangers.pdf",
     featured: true,
     isPlaceholder: false,
     category: "Systems & Algorithms"
@@ -251,8 +251,8 @@ export const projects: ProjectItem[] = [
     role: "Lead Presenter & Architecture",
     status: "Completed",
     githubUrl: "https://github.com/VedantAppa",
-    liveDemoUrl: "/certificates/DTIL_Pothole_Project.pdf",
-    pdfUrl: "/certificates/DTIL_Pothole_Project.pdf",
+    liveDemoUrl: "./certificates/DTIL_Pothole_Project.pdf",
+    pdfUrl: "./certificates/DTIL_Pothole_Project.pdf",
     featured: true,
     isPlaceholder: false,
     category: "Software & Automation"
@@ -265,8 +265,8 @@ export const projects: ProjectItem[] = [
     role: "Developer",
     status: "Completed",
     githubUrl: "https://github.com/VedantAppa",
-    liveDemoUrl: "/certificates/Vedant_CPP_Certificate.pdf",
-    pdfUrl: "/certificates/Vedant_CPP_Certificate.pdf",
+    liveDemoUrl: "./certificates/Vedant_CPP_Certificate.pdf",
+    pdfUrl: "./certificates/Vedant_CPP_Certificate.pdf",
     featured: true,
     isPlaceholder: false,
     category: "Systems & Utilities"
@@ -329,8 +329,8 @@ export const certifications: CertificationItem[] = [
     issuer: "NASSCOM FutureSkills Prime & SmartBridge",
     date: "August 24 – September 26, 2026 (Issued Nov 18, 2026)",
     credentialId: "VIP-BFSI-2026-0276",
-    pdfUrl: "/certificates/Nasscom_Certificate.pdf",
-    verificationUrl: "/certificates/Nasscom_Certificate.pdf",
+    pdfUrl: "./certificates/Nasscom_Certificate.pdf",
+    verificationUrl: "./certificates/Nasscom_Certificate.pdf",
     isPlaceholder: false,
     description: "Industry-integrated program with hands-on exposure to AI in Financial Services, Risk & Fraud Detection, Data Analytics for BFSI, and Insurance workflows."
   },
@@ -341,8 +341,8 @@ export const certifications: CertificationItem[] = [
     date: "Jan – Feb 2026 (4-Week Course, 2 Credits)",
     credentialId: "NPTEL26CS80S466205290",
     score: "Score: 55 (Assignment: 17.75/25, Proctored Exam: 36.75/75)",
-    pdfUrl: "/certificates/Vedant_NPTEL_Python.pdf",
-    verificationUrl: "/certificates/Vedant_NPTEL_Python.pdf",
+    pdfUrl: "./certificates/Vedant_NPTEL_Python.pdf",
+    verificationUrl: "./certificates/Vedant_NPTEL_Python.pdf",
     isPlaceholder: false,
     description: "Official National Programme on Technology Enhanced Learning certification evaluating Python programming for data science and algorithmic problem-solving."
   },
@@ -353,8 +353,8 @@ export const certifications: CertificationItem[] = [
     date: "May 08, 2026",
     credentialId: "3M3ATFWI0HA59",
     grade: "Grade A+",
-    pdfUrl: "/certificates/Vedant_CPP_Certificate.pdf",
-    verificationUrl: "/certificates/Vedant_CPP_Certificate.pdf",
+    pdfUrl: "./certificates/Vedant_CPP_Certificate.pdf",
+    verificationUrl: "./certificates/Vedant_CPP_Certificate.pdf",
     isPlaceholder: false,
     description: "Certified with Grade A+. Covers structured C development, pointer memory management, OOP paradigms, and standard library architectures."
   },
@@ -363,8 +363,8 @@ export const certifications: CertificationItem[] = [
     title: "Business Communication Workshop (7-Month Program)",
     issuer: "MyCaptain",
     date: "Batch: October 2025",
-    pdfUrl: "/certificates/MyCaptain_Business_Communication.pdf",
-    verificationUrl: "/certificates/MyCaptain_Business_Communication.pdf",
+    pdfUrl: "./certificates/MyCaptain_Business_Communication.pdf",
+    verificationUrl: "./certificates/MyCaptain_Business_Communication.pdf",
     isPlaceholder: false,
     description: "Ratified comprehensive course covering professional business dialogue, technical articulation, team communication, and executive presentations."
   },
@@ -374,8 +374,8 @@ export const certifications: CertificationItem[] = [
     issuer: "Bajaj Finserv",
     date: "October 07, 2026",
     credentialId: "548688-37-2026-10-07",
-    pdfUrl: "/certificates/Bajaj_Certificate.pdf",
-    verificationUrl: "/certificates/Bajaj_Certificate.pdf",
+    pdfUrl: "./certificates/Bajaj_Certificate.pdf",
+    verificationUrl: "./certificates/Bajaj_Certificate.pdf",
     isPlaceholder: false,
     description: "Institutional capability certification awarded under Bajaj CSR initiatives for professional competency and corporate readiness."
   }
@@ -388,7 +388,7 @@ export const achievements: AchievementItem[] = [
     organization: "Ministry of Education & AICTE",
     year: "2026",
     description: "Developed 'CareFlow', an AI-assisted healthcare appointment and patient flow optimization system resolving hospital overcrowding and queue delays.",
-    pdfUrl: "/certificates/SIH_Power_Rangers.pdf",
+    pdfUrl: "./certificates/SIH_Power_Rangers.pdf",
     isPlaceholder: false
   },
   {
@@ -397,7 +397,7 @@ export const achievements: AchievementItem[] = [
     organization: "Dr. D. Y. Patil College of Engineering and Innovation, Varale",
     year: "2025 – 2026",
     description: "Designed and presented civic innovation platform for crowdsourced pothole tracking with geolocation, severity tracking, and gamified municipal rewards.",
-    pdfUrl: "/certificates/DTIL_Pothole_Project.pdf",
+    pdfUrl: "./certificates/DTIL_Pothole_Project.pdf",
     isPlaceholder: false
   },
   {
@@ -406,7 +406,7 @@ export const achievements: AchievementItem[] = [
     organization: "IIT Madras / Swayam",
     year: "2026",
     description: "Earned 2 academic credits through rigorous proctored examination and assignments in Python data science paradigms.",
-    pdfUrl: "/certificates/Vedant_NPTEL_Python.pdf",
+    pdfUrl: "./certificates/Vedant_NPTEL_Python.pdf",
     isPlaceholder: false
   }
 ];
