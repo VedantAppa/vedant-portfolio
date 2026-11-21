@@ -13,6 +13,7 @@ import {
   PhoneCall
 } from 'lucide-react';
 import { personalInfo } from '../data/portfolio';
+import vedantPhoto from '../assets/vedant.jpg';
 
 interface HeroProps {
   onOpenResume: () => void;
@@ -176,7 +177,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                 {/* Profile Photograph Visual Area */}
                 <div className="my-5 relative rounded-2xl overflow-hidden border border-slate-200 dark:border-white/10 group shadow-lg bg-slate-900">
                   <img
-                    src={personalInfo.avatar}
+                    src={vedantPhoto}
                     alt="Vedant Sanjay Ghodeswar"
                     className="w-full h-80 sm:h-96 object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   />
